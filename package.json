@@ -1,0 +1,36 @@
+{
+  "name": "@stanzaapi/gs1-decoder",
+  "version": "1.0.0",
+  "description": "Official zero-dependency, high-speed JavaScript/TypeScript client for GS1 Barcode & Digital Link Decoder",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "keywords": [
+    "gs1",
+    "barcode",
+    "digital-link",
+    "sunrise-2027",
+    "gtin",
+    "datamatrix",
+    "ai-identifier",
+    "qr-code",
+    "gs1-128"
+  ],
+  "author": "Stanza",
+  "license": "MIT",
+  "homepage": "https://stanzaapi.com/tools/gs1-decoder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanzaapi/gs1-decoder-typescript.git"
+  }
+}
